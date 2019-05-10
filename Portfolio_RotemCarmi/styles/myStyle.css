@@ -23,7 +23,6 @@ body {
     background-color: black;
     width: 960px;
     height: 81px;
-    position: sticky;
     top: 0px;
     z-index: 2;
 }
@@ -39,7 +38,6 @@ body {
 .nav1 ul {
     list-style: none;
     margin: 0px 0px 0px 0px;
-    position: sticky;
     float: left;
 }
 
@@ -67,8 +65,12 @@ body {
             }
 
             .nav1 ul li a:active {
-                color: #F25252;
+                color: #FF7E7C;
             }
+.nav1 .currentTab {
+    color: #F25252;
+}
+        
 
 article {
     font-size: 25px;
@@ -182,8 +184,8 @@ article p {
     animation-duration: 2s;
 }
 audio {
-    margin: 60px 359px 26px 0px;
+    margin-right: 320px;
 }
 .video {
-    margin: 25px 218px 67px 0px;
+    margin: 0px 186px 0px 0px;
 }
